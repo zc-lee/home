@@ -1,0 +1,9 @@
+html {
+    font-size: var(--size-text, 16px);
+    color:var(--color-text);
+}
+
+body {}
+
+#app {
+}

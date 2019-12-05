@@ -1,0 +1,75 @@
+/* 极细边框 b-xs */
+
+/* 边框方向 b,bt,bb,bl,br */
+.b-xs,
+.bt-xs,
+.bb-xs,
+.bl-xs,
+.br-xs {
+    position: relative;
+}
+
+.b-xs ::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: -50%;
+    right: -50%;
+    -webkit-transform: scale($--border-xs-scale);
+    transform: scale($--border-xs-scale);
+    border: $--border-width-base $--border-style-base $--border-color-base;
+    border-radius: $--border-base*2; //目标大小*缩放倍数
+}
+.bt-xs{
+    content: '';
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: -50%;
+    right: -50%;
+    -webkit-transform: scale($--border-xs-scale);
+    transform: scale($--border-xs-scale);
+    border-top: $--border-width-base $--border-style-base $--border-color-base;
+    border-radius: $--border-base*2;
+}
+.bb-xs{
+    content: '';
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: -50%;
+    right: -50%;
+    -webkit-transform: scale($--border-xs-scale);
+    transform: scale($--border-xs-scale);
+    border-bottom: $--border-width-base $--border-style-base $--border-color-base;
+    border-radius: $--border-base*2;
+}
+.bl-xs{
+    content: '';
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: -50%;
+    right: -50%;
+    -webkit-transform: scale($--border-xs-scale);
+    transform: scale($--border-xs-scale);
+    border-left: $--border-width-base $--border-style-base $--border-color-base;
+    border-radius: $--border-base*2;
+}
+.br-xs{
+    content: '';
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: -50%;
+    right: -50%;
+    -webkit-transform: scale($--border-xs-scale);
+    transform: scale($--border-xs-scale);
+    border-right: $--border-width-base $--border-style-base $--border-color-base;
+    border-radius: $--border-base*2;
+}
+
+/* 边框类型 border-style: b-xs-s */
+
+/* 边框圆角 border-radius: b-xs-r */

@@ -1,0 +1,22 @@
+/* 
+外边距
+    margin
+    margin-left
+    margin-right
+    margin-top
+    margin-bottom
+
+    m-*
+ */
+
+.margin-auto,
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-none,
+.m-none,
+.m-0 {
+    margin: 0;
+}

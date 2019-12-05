@@ -1,0 +1,21 @@
+/* 弹性布局 flex */
+@import './flex/index.scss';
+
+.display-none,.display-hide,.dp-none,.dp-hide{
+    display: none;
+}
+.display-inherit,.dp-inherit{
+    display: inherit;
+}
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+.inline-block{
+    display: inline-block;
+}

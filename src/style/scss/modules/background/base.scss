@@ -1,0 +1,34 @@
+/*对齐方式(background-color  bc-* )*/
+.bc-primary {
+    background-color: $color-primary
+}
+
+.bc-success {
+    background-color: $color-success
+}
+
+.bc-warning {
+    background-color: $color-warning
+}
+
+.bc-danger {
+    background-color: $color-danger
+}
+
+.bc-white {
+    background-color: $color-white
+}
+
+.bc-text {
+    background-color: $color-text
+}
+
+.bc-info {
+    background-color: $color-info
+}
+
+.bc-f,
+.bc-fff,
+.bc-ffffff {
+    background-color: #ffffff;
+}

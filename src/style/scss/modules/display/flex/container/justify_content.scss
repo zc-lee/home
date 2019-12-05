@@ -1,0 +1,30 @@
+/* 对齐方式 justify-content */
+.start,
+.flex-start-x,
+.flex-start{
+    justify-content: flex-start;
+}
+
+.end,
+.flex-end-x,
+.flex-end{
+    justify-content: flex-end;
+}
+
+.center,
+.flex-center-x,
+.flex-center{
+    justify-content: center;
+}
+
+.between,
+.flex-between-x,
+.flex-between{
+    justify-content: space-between;
+}
+
+.around,
+.flex-around-x,
+.flex-around{
+    justify-content: space-around;
+}

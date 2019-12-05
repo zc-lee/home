@@ -1,0 +1,30 @@
+/* 交叉轴对齐方式 align-items */
+.top,
+.flex-start-y,
+.flex-top {
+    align-items: flex-start;
+}
+
+.bottom,
+.flex-end-y,
+.flex-bottom {
+    align-items: flex-end;
+}
+
+.middle,
+.flex-center-y,
+.flex-middle {
+    align-items: center;
+}
+
+// 项目的第一行文字的基线对齐
+.baseline,
+.flex-baseline {
+    align-items: baseline;
+}
+
+// 占满整个容器的高度。
+.stretch,
+.flex-stretch {
+    align-items: stretch;
+}

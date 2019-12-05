@@ -1,0 +1,30 @@
+/* 方向 flex-direction */
+.row,
+.flex-x,
+.flex-row,
+.flex-to-left {
+    flex-direction: row;
+}
+
+.row-reverse,
+.flex-xr,
+.flex-row-reverse,
+.flex-to-right {
+    flex-direction: row-reverse;
+}
+
+.column,
+.flex-y,
+.flex-col,
+.flex-column,
+.flex-to-bottom {
+    flex-direction: column;
+}
+
+.flex-yr,
+.column-reverse,
+.flex-col-reverse,
+.flex-column-reverse,
+.flex-to-top {
+    flex-direction: column-reverse;
+}

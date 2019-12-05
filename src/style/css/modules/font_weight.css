@@ -1,0 +1,19 @@
+/* 加粗 (font-weight fw-) */
+
+.fw-init {
+    font-weight: initial;
+}
+
+.fw-inherit {
+    font-weight: inherit;
+    font-weight: unset;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-normal,
+fw-no {
+    font-weight: normal;
+}

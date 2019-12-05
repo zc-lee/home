@@ -1,0 +1,15 @@
+/* 换行 flex-wrap */
+.wrap,
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap,
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+
+.wrap-reverse,
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}

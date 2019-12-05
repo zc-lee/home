@@ -1,0 +1,29 @@
+/* 容器属性 */
+.flex,
+.display-flex {
+    -o-display: flex;
+    -ms-display: flex;
+    -webkit-display: flex;
+    display: flex;
+}
+
+.inline-flex,
+.flex-inline {
+    display: inline-flex;
+}
+
+/* 方向 flex-direction */
+@import './flex_direction.scss';
+
+/* 换行 flex-wrap */
+@import './flex_wrap.scss';
+
+/* 对齐方式 justify-content */
+@import './justify_content.scss';
+
+/* 交叉轴对齐方式 align-items */
+@import './align_items.scss';
+
+/* 多轴对齐方式 align-content */
+@import './align_content.scss';
+

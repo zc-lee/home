@@ -1,0 +1,54 @@
+/* 文字颜色变量
+-------------------------- */
+
+$--color-white: $color-white;
+$--color-black: $color-black;
+$--color-primary: $color-primary;
+$--color-success: $color-success;
+$--color-warning: $color-warning;
+$--color-danger: $color-danger;
+$--color-info: $color-info;
+/* 背景颜色
+-------------------------- */
+
+$--background-color-base: #f5f7fa !default;
+/* 按钮字体粗细
+-------------------------- */
+
+$--button-font-weight:100;
+/* 字体大小
+-------------------------- */
+
+$--font-size-base: $size-text;
+/* 字体大小
+-------------------------- */
+
+$--tooltip-fill:$--color-danger;
+/* 弹窗
+-------------------------- */
+
+$--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
+$--dialog-font-size: 16px !default;
+$--dialog-padding-primary: 20px !default;
+$--dialog-padding-body: 20px !default;
+/*标签
+*/
+
+$--tag-fill:#e7e8eb;
+$--tag-color:#333;
+/* 改变 icon 字体路径变量，必需 */
+
+$--font-path: '../../../node_modules/element-ui/lib/theme-chalk/fonts';
+html,
+body,
+#app {
+  height: 100%;
+  color: #454445;
+}
+
+.el-form-item__label {
+  font-weight: 500;
+}
+
+@import "../../../node_modules/element-ui/packages/theme-chalk/src/index";
+// @import url("https://cdn.bootcss.com/element-ui/2.4.0/theme-chalk/index.css");

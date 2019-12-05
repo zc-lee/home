@@ -1,0 +1,25 @@
+/* 移除 overflow: of-* */
+.of-auto{
+    overflow: hidden;
+}
+
+.of-hidden,.of-hide,.of-h{
+    overflow: hidden;
+}
+
+.of-inherit,.of-i{
+    overflow: inherit;
+}
+
+.of-scroll,.of-s{
+    overflow: scroll;
+}
+
+.of-scroll-y,.of-s-y{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.of-visible,.of-v{
+    overflow: visible;
+}

@@ -1,0 +1,27 @@
+.fc-primary{
+    color:var(--color-primary);
+}
+
+.fc-success{
+    color:var(--color-success);
+}
+
+.fc-warning{
+    color:var(--color-warning);
+}
+
+.fc-danger{
+    color:var(--color-danger);
+}
+
+.fc-white{
+    color:var(--color-white);
+}
+
+.fc-text{
+    color:var(--color-text);
+}
+
+.fc-info{
+    color:var(--color-info);
+}

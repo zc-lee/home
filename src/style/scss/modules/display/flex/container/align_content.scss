@@ -1,0 +1,33 @@
+/* 多轴对齐方式 align-content */
+.starts,
+.flex-starts {
+    align-content: flex-start;
+}
+
+.ends,
+.flex-ends {
+    align-content: flex-end;
+}
+
+.centers,
+.flex-centers {
+    align-content: center;
+}
+
+// 与交叉轴两端对齐，轴线之间的间隔平均分布。
+.betweens,
+.flex-betweens {
+    align-content: space-between;
+}
+
+// 每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
+.arounds,
+.flex-arounds {
+    align-content: space-around;
+}
+
+// 轴线占满整个交叉轴。
+.stretchs,
+.flex-stretchs {
+    align-content: stretch;
+}
